@@ -1,0 +1,14 @@
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\bin\Debug\MassiveManagerChange.exe.config
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\bin\Debug\MassiveManagerChange.exe
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\bin\Debug\MassiveManagerChange.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\obj\Debug\MassiveManagerChange.csprojAssemblyReference.cache
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\obj\Debug\MassiveManagerChange.csproj.CoreCompileInputs.cache
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\obj\Debug\MassiveManagerChange.exe
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\obj\Debug\MassiveManagerChange.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\bin\Debug\BOL.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\bin\Debug\FIMModel.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\bin\Debug\DAL.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\bin\Debug\FIMModel.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\bin\Debug\BOL.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\bin\Debug\DAL.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\obj\Debug\MassiveManagerChange.csproj.CopyComplete

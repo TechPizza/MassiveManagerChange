@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6C1064E6-72B3-41AA-B543-4164EC056F68}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.ResourceManagement.Client</RootNamespace>
+    <AssemblyName>Microsoft.ResourceManagement.Client</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Microsoft.ResourceManagement.Client.XML</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ResourceManagement, Version=4.0.2592.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Forefront Identity Manager\Service and Portal\Program Files\Microsoft Forefront Identity Manager\2010\Service\Microsoft.ResourceManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.IdentityModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.WorkflowServices">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AskQAGateQuestions.cs" />
+    <Compile Include="ClientHelper.cs" />
+    <Compile Include="ClientSerializer.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="ContextMessageHeader.cs" />
+    <Compile Include="DefaultClient.cs" />
+    <Compile Include="DefaultResourceTypeFactory.cs" />
+    <Compile Include="EnumerationResultEnumerator.cs" />
+    <Compile Include="Faults\AnonymousInteractionRequiredFault.cs" />
+    <Compile Include="Faults\AuthenticationRequiredFault.cs" />
+    <Compile Include="Faults\AuthorizationRequiredFault.cs" />
+    <Compile Include="Faults\CannotProcessFilter.cs" />
+    <Compile Include="Faults\EndpointUnavailable.cs" />
+    <Compile Include="Faults\FilterDialectRequestedUnavailable.cs" />
+    <Compile Include="Faults\FragmentDialectNotSupported.cs" />
+    <Compile Include="Faults\InvalidEnumerationContext.cs" />
+    <Compile Include="Faults\InvalidRepresentationFault.cs" />
+    <Compile Include="Faults\PermissionDeniedFault.cs" />
+    <Compile Include="Faults\RequestFailed.cs" />
+    <Compile Include="Faults\RequestFailedFault.cs" />
+    <Compile Include="Faults\UnsupportedExpiration.cs" />
+    <Compile Include="Faults\UnwillingToPerformFault.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="IResourceTypeFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RmFactory.cs" />
+    <Compile Include="RmRequestFactory.cs" />
+    <Compile Include="RmResourceFactory.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="WsEnumeration\EnumerationContext.cs" />
+    <Compile Include="WsEnumeration\EnumerationDetail.cs" />
+    <Compile Include="WsEnumeration\EnumerationFilter.cs" />
+    <Compile Include="WsEnumeration\EnumerationRequest.cs" />
+    <Compile Include="WsEnumeration\EnumerationResponse.cs" />
+    <Compile Include="WsEnumeration\IEnumerate.cs" />
+    <Compile Include="WsEnumeration\LocalePreference.cs" />
+    <Compile Include="WsEnumeration\LocalePreferences.cs" />
+    <Compile Include="WsEnumeration\PullAdjustment.cs" />
+    <Compile Include="WsEnumeration\PullItem.cs" />
+    <Compile Include="WsEnumeration\PullRequest.cs" />
+    <Compile Include="WsEnumeration\PullResponse.cs" />
+    <Compile Include="WsEnumeration\Selection.cs" />
+    <Compile Include="WsEnumeration\Sorting.cs" />
+    <Compile Include="WsEnumeration\SortingAttribute.cs" />
+    <Compile Include="WsEnumeration\WsEnumerationClient.cs" />
+    <Compile Include="WsTransfer\AddRequest.cs" />
+    <Compile Include="WsTransfer\AlternateClient.cs" />
+    <Compile Include="WsTransfer\BaseObjectSearchRequest.cs" />
+    <Compile Include="WsTransfer\BaseObjectSearchResponse.cs" />
+    <Compile Include="WsTransfer\IMEX.cs" />
+    <Compile Include="WsTransfer\CreateRequest.cs" />
+    <Compile Include="WsTransfer\CreateResponse.cs" />
+    <Compile Include="WsTransfer\DeleteRequest.cs" />
+    <Compile Include="WsTransfer\DeleteResponse.cs" />
+    <Compile Include="WsTransfer\DirectoryAccessChange.cs" />
+    <Compile Include="WsTransfer\EndpointReference.cs" />
+    <Compile Include="WsTransfer\GetRequest.cs" />
+    <Compile Include="WsTransfer\GetResponse.cs" />
+    <Compile Include="WsTransfer\IAlternate.cs" />
+    <Compile Include="WsTransfer\ImdaRequest.cs" />
+    <Compile Include="WsTransfer\IResource.cs" />
+    <Compile Include="WsTransfer\IResourceFactory.cs" />
+    <Compile Include="WsTransfer\MexClient.cs" />
+    <Compile Include="WsTransfer\ModifyRequest.cs" />
+    <Compile Include="WsTransfer\PartialAttribute.cs" />
+    <Compile Include="WsTransfer\PutRequest.cs" />
+    <Compile Include="WsTransfer\PutResponse.cs" />
+    <Compile Include="WsTransfer\ReferenceProperties.cs" />
+    <Compile Include="WsTransfer\ResourceCreated.cs" />
+    <Compile Include="WsTransfer\ResourceLocaleProperty.cs" />
+    <Compile Include="WsTransfer\ResourceReferenceProperty.cs" />
+    <Compile Include="WsTransfer\ResourceTimeProperty.cs" />
+    <Compile Include="WsTransfer\RmAttributeElement.cs" />
+    <Compile Include="WsTransfer\TransferRequest.cs" />
+    <Compile Include="WsTransfer\WsTransferClient.cs" />
+    <Compile Include="WsTransfer\WsTransferFactoryClient.cs" />
+    <Compile Include="WsTrust\AuthenticationChallenge.cs" />
+    <Compile Include="WsTrust\Challenge.cs" />
+    <Compile Include="WsTrust\AuthenticationChallengeResponse.cs" />
+    <Compile Include="WsTrust\ChallengeResponseHelper.cs" />
+    <Compile Include="WsTrust\ClientMultipleTokenBindings.cs" />
+    <Compile Include="WsTrust\WorkflowAuthenticationResponse.cs" />
+    <Compile Include="WsTrust\Response.cs" />
+    <Compile Include="WsTrust\QAGateData.cs" />
+    <Compile Include="WsTrust\QAGateSettings.cs" />
+    <Compile Include="WsTrust\WorkflowAuthenticationChallenge.cs" />
+    <Compile Include="WsTrust\ISecurityTokenService.cs" />
+    <Compile Include="WsTrust\RequestSecurityTokenResponse.cs" />
+    <Compile Include="WsTrust\SecurityTokenService.cs" />
+    <Compile Include="WsTrust\SecurityTokenServiceClient.cs" />
+    <Compile Include="WsTrust\WsTrust.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.ResourceManagement.ObjectModel\Microsoft.ResourceManagement.ObjectModel.csproj">
+      <Project>{CECB3A49-A780-4558-A402-1F3FF42B0B18}</Project>
+      <Name>Microsoft.ResourceManagement.ObjectModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AssemblyReferences\" />
+    <Folder Include="Examples\PasswordReset\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

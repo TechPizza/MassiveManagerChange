@@ -1,0 +1,6 @@
+C:\Source\Tecnimont\RisalitaGerarchica\ThirdPartAssemblies\bin\Debug\ThirdPartAssemblies.dll
+C:\Source\Tecnimont\RisalitaGerarchica\ThirdPartAssemblies\bin\Debug\ThirdPartAssemblies.pdb
+C:\Source\Tecnimont\RisalitaGerarchica\ThirdPartAssemblies\obj\Debug\ThirdPartAssemblies.csprojAssemblyReference.cache
+C:\Source\Tecnimont\RisalitaGerarchica\ThirdPartAssemblies\obj\Debug\ThirdPartAssemblies.csproj.CoreCompileInputs.cache
+C:\Source\Tecnimont\RisalitaGerarchica\ThirdPartAssemblies\obj\Debug\ThirdPartAssemblies.dll
+C:\Source\Tecnimont\RisalitaGerarchica\ThirdPartAssemblies\obj\Debug\ThirdPartAssemblies.pdb

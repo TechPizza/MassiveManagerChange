@@ -1,0 +1,6 @@
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\bin\Debug\FIMModel.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\bin\Debug\FIMModel.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\obj\Debug\FIMModel.csprojAssemblyReference.cache
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\obj\Debug\FIMModel.csproj.CoreCompileInputs.cache
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\obj\Debug\FIMModel.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\obj\Debug\FIMModel.pdb

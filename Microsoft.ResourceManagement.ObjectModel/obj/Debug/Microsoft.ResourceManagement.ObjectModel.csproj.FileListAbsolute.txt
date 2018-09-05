@@ -1,0 +1,9 @@
+C:\Source\Tecnimont\RisalitaGerarchica\fim2010client\Microsoft.ResourceManagement.ObjectModel\obj\Debug\Microsoft.ResourceManagement.ObjectModel.csprojAssemblyReference.cache
+C:\Source\Tecnimont\RisalitaGerarchica\fim2010client\Microsoft.ResourceManagement.ObjectModel\obj\Debug\Microsoft.ResourceManagement.ObjectModel.csproj.CoreCompileInputs.cache
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.ObjectModel\bin\Debug\Microsoft.ResourceManagement.ObjectModel.XML
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.ObjectModel\bin\Debug\Microsoft.ResourceManagement.ObjectModel.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.ObjectModel\bin\Debug\Microsoft.ResourceManagement.ObjectModel.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.ObjectModel\obj\Debug\Microsoft.ResourceManagement.ObjectModel.csprojAssemblyReference.cache
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.ObjectModel\obj\Debug\Microsoft.ResourceManagement.ObjectModel.csproj.CoreCompileInputs.cache
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.ObjectModel\obj\Debug\Microsoft.ResourceManagement.ObjectModel.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.ObjectModel\obj\Debug\Microsoft.ResourceManagement.ObjectModel.pdb

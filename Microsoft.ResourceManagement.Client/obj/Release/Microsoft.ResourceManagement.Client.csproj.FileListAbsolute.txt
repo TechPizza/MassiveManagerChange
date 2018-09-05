@@ -1,0 +1,2 @@
+C:\Source\Tecnimont\RisalitaGerarchica\fim2010client\Microsoft.ResourceManagement.Client\obj\Release\Microsoft.ResourceManagement.Client.csprojAssemblyReference.cache
+C:\Source\Tecnimont\RisalitaGerarchica\fim2010client\Microsoft.ResourceManagement.Client\obj\Release\Microsoft.ResourceManagement.Client.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+C:\Source\Tecnimont\RisalitaGerarchica\fim2010client\Microsoft.ResourceManagement.Client\obj\Debug\Microsoft.ResourceManagement.Client.csprojAssemblyReference.cache
+C:\Source\Tecnimont\RisalitaGerarchica\fim2010client\Microsoft.ResourceManagement.Client\obj\Debug\Microsoft.ResourceManagement.Client.csproj.CoreCompileInputs.cache
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.Client\bin\Debug\Microsoft.ResourceManagement.Client.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.Client\bin\Debug\Microsoft.ResourceManagement.Client.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.Client\bin\Debug\Microsoft.ResourceManagement.Client.dll.CodeAnalysisLog.xml
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.Client\bin\Debug\Microsoft.ResourceManagement.Client.dll.lastcodeanalysissucceeded
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.Client\bin\Debug\Microsoft.IdentityModel.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.Client\bin\Debug\Microsoft.ResourceManagement.ObjectModel.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.Client\bin\Debug\Microsoft.ResourceManagement.ObjectModel.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.Client\bin\Debug\Microsoft.ResourceManagement.ObjectModel.xml
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.Client\obj\Debug\Microsoft.ResourceManagement.Client.csprojAssemblyReference.cache
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.Client\obj\Debug\Microsoft.ResourceManagement.Client.csproj.CoreCompileInputs.cache
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.Client\obj\Debug\Microsoft.ResourceManagement.Client.csproj.CopyComplete
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.Client\obj\Debug\Microsoft.ResourceManagement.Client.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\Microsoft.ResourceManagement.Client\obj\Debug\Microsoft.ResourceManagement.Client.pdb

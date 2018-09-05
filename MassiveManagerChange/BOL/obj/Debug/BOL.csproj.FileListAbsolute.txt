@@ -1,0 +1,9 @@
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\BOL\bin\Debug\BOL.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\BOL\bin\Debug\BOL.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\BOL\bin\Debug\DAL.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\BOL\bin\Debug\DAL.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\BOL\obj\Debug\BOL.csprojAssemblyReference.cache
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\BOL\obj\Debug\BOL.csproj.CopyComplete
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\BOL\obj\Debug\BOL.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\MassiveManagerChange\BOL\obj\Debug\BOL.pdb
