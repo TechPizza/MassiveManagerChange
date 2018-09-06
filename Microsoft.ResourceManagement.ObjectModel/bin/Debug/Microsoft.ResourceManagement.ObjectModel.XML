@@ -1285,49 +1285,10 @@
             Reference to timezone configuration
             </summary>
         </member>
-        <member name="P:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.MetaID">
+        <member name="P:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.CostCenterId">
             <summary>
-            MetaId
-            </summary>
-        </member>
-        <member name="P:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.IdSubject">
-            <summary>
-            IdSubject
-            </summary>
-        </member>
-        <member name="P:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.UserSapId">
-            <summary>
-            IdSubject
-            </summary>
-        </member>
-        <member name="P:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.SourceSapId">
-            <summary>
-            SourceSapId
-            </summary>
-        </member>
-        <member name="P:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.CompanyId">
-            <summary>
-            CompanyId
-            </summary>
-        </member>
-        <member name="P:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.CostCenterManager">
-            <summary>
-            CostCenterManager
-            </summary>
-        </member>
-        <member name="P:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.CostCenterManagerMetaId">
-            <summary>
-            CostCenterManagerMetaId
-            </summary>
-        </member>
-        <member name="P:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.SourceSystem">
-            <summary>
-            SourceSystem
-            </summary>
-        </member>
-        <member name="P:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.PersonID">
-            <summary>
-            PersonID
+            Cost Center Id
+            Identify cost center uniquely
             </summary>
         </member>
         <member name="M:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.EnsureSpecificAttributesExist">
@@ -1604,54 +1565,10 @@
             Reference to timezone configuration
             </summary>
         </member>
-        <member name="F:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.AttributeNames.MetaID">
+        <member name="F:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.AttributeNames.CostCenterId">
             <summary>
-            MetaID
-            Unique identifier
-            </summary>
-        </member>
-        <member name="F:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.AttributeNames.IdSubject">
-            <summary>
-            IdSubject
-            Unique identifier
-            </summary>
-        </member>
-        <member name="F:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.AttributeNames.UserSapId">
-            <summary>
-            UserSapId
-            Unique identifier
-            </summary>
-        </member>
-        <member name="F:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.AttributeNames.SourceSapId">
-            <summary>
-            SourceSapId
-            Unique Identifier
-            </summary>
-        </member>
-        <member name="F:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.AttributeNames.CompanyId">
-            <summary>
-            CompanyId
-            Unique Identifier
-            </summary>
-        </member>
-        <member name="F:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.AttributeNames.CostCenterManager">
-            <summary>
-            Cost Center Manager
-            </summary>
-        </member>
-        <member name="F:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.AttributeNames.CostCenterManagerMetaId">
-            <summary>
-            Cost Center Manager Meta Id
-            </summary>
-        </member>
-        <member name="F:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.AttributeNames.SourceSystem">
-            <summary>
-            Source System
-            </summary>
-        </member>
-        <member name="F:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmPerson.AttributeNames.PersonID">
-            <summary>
-            Person ID
+            Cost Center ID
+            Identify a cost center
             </summary>
         </member>
         <member name="T:Microsoft.ResourceManagement.ObjectModel.ResourceTypes.RmGroup">

@@ -1,6 +1,15 @@
 C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\bin\Debug\FIMModel.dll
 C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\bin\Debug\FIMModel.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\bin\Debug\log4net.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\bin\Debug\Microsoft.ResourceManagement.Client.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\bin\Debug\Microsoft.ResourceManagement.ObjectModel.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\bin\Debug\Microsoft.IdentityModel.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\bin\Debug\Microsoft.ResourceManagement.Client.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\bin\Debug\Microsoft.ResourceManagement.ObjectModel.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\bin\Debug\Microsoft.ResourceManagement.ObjectModel.xml
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\bin\Debug\log4net.xml
 C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\obj\Debug\FIMModel.csprojAssemblyReference.cache
 C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\obj\Debug\FIMModel.csproj.CoreCompileInputs.cache
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\obj\Debug\FIMModel.csproj.CopyComplete
 C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\obj\Debug\FIMModel.dll
 C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\FIMModel\obj\Debug\FIMModel.pdb

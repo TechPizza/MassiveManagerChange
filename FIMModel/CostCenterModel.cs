@@ -9,8 +9,10 @@ namespace FIMModel
     [Serializable]
     public class CostCenterModel
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
 
-        public string Manager { get; set; }
+        public string CostCenterCode { get; set; }
+
+        public string NewManager { get; set; }
     }
 }

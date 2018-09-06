@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\ThirdPartAssemblies\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,7 +44,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CostCenterModel.cs" />
+    <Compile Include="PersonModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.ResourceManagement.Client\Microsoft.ResourceManagement.Client.csproj">
+      <Project>{6C1064E6-72B3-41AA-B543-4164EC056F68}</Project>
+      <Name>Microsoft.ResourceManagement.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Microsoft.ResourceManagement.ObjectModel\Microsoft.ResourceManagement.ObjectModel.csproj">
+      <Project>{CECB3A49-A780-4558-A402-1F3FF42B0B18}</Project>
+      <Name>Microsoft.ResourceManagement.ObjectModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

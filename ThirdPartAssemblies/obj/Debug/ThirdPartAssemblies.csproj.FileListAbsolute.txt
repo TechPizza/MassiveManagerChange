@@ -4,3 +4,9 @@ C:\Source\Tecnimont\RisalitaGerarchica\ThirdPartAssemblies\obj\Debug\ThirdPartAs
 C:\Source\Tecnimont\RisalitaGerarchica\ThirdPartAssemblies\obj\Debug\ThirdPartAssemblies.csproj.CoreCompileInputs.cache
 C:\Source\Tecnimont\RisalitaGerarchica\ThirdPartAssemblies\obj\Debug\ThirdPartAssemblies.dll
 C:\Source\Tecnimont\RisalitaGerarchica\ThirdPartAssemblies\obj\Debug\ThirdPartAssemblies.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\ThirdPartAssemblies\bin\Debug\ThirdPartAssemblies.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\ThirdPartAssemblies\bin\Debug\ThirdPartAssemblies.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\ThirdPartAssemblies\obj\Debug\ThirdPartAssemblies.csproj.CoreCompileInputs.cache
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\ThirdPartAssemblies\obj\Debug\ThirdPartAssemblies.dll
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\ThirdPartAssemblies\obj\Debug\ThirdPartAssemblies.pdb
+C:\Sourcevizzada1\MassiveManagerChange\MassiveManagerChange\ThirdPartAssemblies\obj\Debug\ThirdPartAssemblies.csprojAssemblyReference.cache

@@ -18,17 +18,57 @@ namespace MassiveManagerChange
 
         static void Main(string[] args)
         {
-            BusinessLayer _bl = new BusinessLayer();
-            DataTable _dt = new DataTable();
-            List<CostCenterModel> _ccl = new List<CostCenterModel>();
-
-            _bl.CalculateDelta();
-            _dt = _bl.GetDeltaChanges();
-            _ccl = ConvertDataTable<CostCenterModel>(_dt);
-
-            foreach (CostCenterModel ccm in _ccl)
+            try
             {
-                //TODO
+                BusinessLayer _bl = new BusinessLayer();
+                DataTable _dt = new DataTable();
+                List<CostCenterModel> _ccl = new List<CostCenterModel>();
+                List<PersonModel> _lp = new List<PersonModel>();
+                PersonModel _manager = new PersonModel();
+
+                _bl.CalculateDelta();
+                _dt = _bl.GetDeltaChanges();
+                _ccl = ConvertDataTable<CostCenterModel>(_dt);
+
+                foreach (CostCenterModel ccm in _ccl)
+                {
+                    _lp = PersonModel.GetFimPersonListFromCostCenter(ccm.CostCenterCode);
+                    if (ccm.NewManager is null)
+                    {
+                        foreach (PersonModel per in _lp)
+                        {
+                            PersonModel.UpdateUser(null, per);
+                            if (per.AccountName.StartsWith("X_"))
+                                _bl.UpdateExternalsDBSubject(per.AccountName, null);
+                            else
+                                _bl.UpdateInternalsDBSubject(per.AccountName, null);
+                        }
+                    }
+                    else
+                    {
+                        _manager = PersonModel.GetManagerThroughSamAccount(ccm.NewManager);
+                        foreach (PersonModel per in _lp)
+                        {
+                            if (!(_manager is null))
+                            {
+                                PersonModel.UpdateUser(_manager.ObjectID, per);
+                                if (per.AccountName.StartsWith("X_"))
+                                {
+                                    _bl.UpdateExternalsDBSubject(per.AccountName, _manager.AccountName);
+                                }
+                                else
+                                {
+                                    _bl.UpdateInternalsDBSubject(per.AccountName, _manager.AccountName);
+                                }
+                            }
+                        }
+                    }
+                }
+                _bl.CopyInActual();
+            }
+            catch(Exception e)
+            {
+
             }
 
         }

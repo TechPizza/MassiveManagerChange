@@ -26,5 +26,15 @@ namespace BOL
         {
             return _dl.GetDeltaChanges();
         }
+
+        public void UpdateExternalsDBSubject(string user, string manager)
+        {
+            _dl.UpdateExternalDBsubject(user, manager);
+        }
+
+        public void UpdateInternalsDBSubject(string user, string manager)
+        {
+            _dl.UpdateInternalDBsubject(user, manager);
+        }
     }
 }

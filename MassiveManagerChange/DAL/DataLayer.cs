@@ -103,5 +103,53 @@ namespace DAL
             }
 
         }
+
+        public void UpdateExternalDBsubject(string user, string manager)
+        {
+            SqlCommand _cmd = new SqlCommand("dbo.UpdateExternalsManager", _cn);
+            _cmd.CommandType = CommandType.StoredProcedure;
+            SqlParameter _sp;
+
+            try
+            {
+                _sp = new SqlParameter("manager", manager);
+                _cmd.Parameters.Add(_sp);
+                _sp = new SqlParameter("samAccountName", user);
+                _cmd.Parameters.Add(_sp);
+                _cmd.ExecuteNonQuery(); ;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                _cmd = null;
+            }
+        }
+
+        public void UpdateInternalDBsubject(string user, string manager)
+        {
+            SqlCommand _cmd = new SqlCommand("dbo.UpdateInternalsManager", _cn);
+            _cmd.CommandType = CommandType.StoredProcedure;
+            SqlParameter _sp;
+
+            try
+            {
+                _sp = new SqlParameter("manager", manager);
+                _cmd.Parameters.Add(_sp);
+                _sp = new SqlParameter("samAccountName", user);
+                _cmd.Parameters.Add(_sp);
+                _cmd.ExecuteNonQuery(); ;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                _cmd = null;
+            }
+        }
     }
 }
